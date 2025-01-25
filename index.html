@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2> <img src="./images/sidebar/apps.svg"> Dashboard</h2>
+            <nav class="sidebar-nav">
+                <ul class="navigation">
+                    <li> <img class="icon" src="./images/sidebar/home-account.svg"> Home</li>
+                    <li> <img class="icon" src="./images/sidebar/account-box-outline.svg"> Profile</li>
+                    <li> <img class="icon" src="./images/sidebar/message-outline.svg"> Messages</li>
+                    <li> <img class="icon" src="./images/sidebar/clock-outline.svg"> History</li>
+                    <li> <img class="icon" src="./images/sidebar/note-multiple-outline.svg"> Tasks</li>
+                    <li> <img class="icon" src="./images/sidebar/account-group-outline.svg"> Communities</li>
+                </ul>
+                <ul class="support">
+                    <li> <img class="icon" src="./images/sidebar/cog-outline.svg"> Settings</li>
+                    <li> <img class="icon" src="./images/sidebar/tooltip-question-outline.svg"> Support</li>
+                    <li> <img class="icon" src="./images/sidebar/shield-account-outline.svg"> Privacy</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <header>
+                <div>
+                    <img class="icon" src="./images/magnify.svg" alt="">
+                    <input id="search" type="text" placeholder="Search">
+                </div>
+                <div class="profile-icons">
+                    <img class="icon" src="./images/bell-ring-outline.svg" alt="">
+                    <img class="profile-pic" src="./images/cute-cat.jpeg" alt="" style = "height: 40px; width: 40px;">
+                    <p class="flex col justify-center" style="height: 45px;">FirstName LastName</p>
+
+                </div>
+                <div style="display: flex;">
+                    <img class="profile-pic" src="./images/cute-cat.jpeg" alt="" style = "height: 80px; width: 80px;">
+                    <div class="greet flex col justify-center">
+                        <p>Hi there,</p>
+                        <p>FirstName LastName (@User)</p>
+                    </div>
+                </div>
+                <div class="flex col justify-center">
+                    <ul class="create">
+                        <li><button>Create</button></li>
+                        <li><button>Upload</button></li>
+                        <li><button>Share</button></li>
+                    </ul>
+                </div>
+            </header>
+            <main>
+                <div class="projects">
+                    <h2 style="grid-column: 1/3;">Projects</h2>
+
+                    <div class="project">
+                        <p>Project1</p>
+                    </div>
+                    <div class="project">
+                        <p>Project2</p>
+                    </div>
+                    <div class="project">
+                        <p>Project3</p>
+                    </div>
+                    <div class="project">
+                        <p>Project4</p>
+                    </div>
+                    <div class="project">
+                        <p>Project5</p>
+                    </div>
+                    <div class="project">
+                        <p>Project6</p>
+                    </div>
+                </div>
+
+                <div class="announcements">
+                    <h2>Announcements</h2>
+
+                    <div>
+                        Announcement1
+                        <hr>
+                        Announcement2
+                        <hr>
+                        Announcement3
+                    </div>
+                </div>
+                <div class="trending">
+                    <h2>Trending</h2>
+                    <div>
+                        <img class="profile-pic" src="./images/cute-cat.jpeg" alt="" style = "height: 40px; width: 40px;">
+                         Trending1
+                        <hr>
+                        <img class="profile-pic" src="./images/cute-cat.jpeg" alt="" style = "height: 40px; width: 40px;">
+                        Trending2
+                        <hr>
+                        <img class="profile-pic" src="./images/cute-cat.jpeg" alt="" style = "height: 40px; width: 40px;">
+                        Trending3
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
